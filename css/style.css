@@ -5,15 +5,13 @@
 */
 
 html {
-   background: #000;
    height: 100%;
 }
 
 body {
    align-items: center;
-   background: #fff;
    display: flex;
-   font-family: 'Karla', sans-serif;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    justify-content: center;
    min-height: 100%;
 }
@@ -22,12 +20,26 @@ body {
    display: flex;
    flex-direction: column;
    text-align: center;
-   @media (min-width: 40em) {
-      margin: 0 auto;
-      width: 30vw;
-   }
 }
 
 form {
-   padding: 1rem 0;
+   padding: 1cm;
+   background-color: rebeccapurple;
+}
+
+select {
+   background-color: goldenrod;
+   border-color: black;
+}
+
+input {
+   height: 2cm;
+   width: 2cm;
+   border-color: black;
+   border-width: 0.25cm;
+}
+
+button {
+   background-color: goldenrod;
+   border-color: black;
 }
