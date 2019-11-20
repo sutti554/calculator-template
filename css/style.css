@@ -9,6 +9,8 @@ html {
 }
 
 body {
+   background-image: url(https://rfathead-res.cloudinary.com/image/upload/h_300,w_300/logos/lgo_nfl_baltimore_ravens.png);
+   background-repeat: repeat;
    align-items: center;
    display: flex;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
