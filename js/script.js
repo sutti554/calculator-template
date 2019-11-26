@@ -31,6 +31,10 @@ calcForm.addEventListener('submit', function (e) {
       case 'divide':
          calculatorResult = firstNumber / secondNumber;
          break;
+      case 'lamar':
+         document.body.classList = 'lamar';
+         calculatorResult = 'lamar!';
+         break;
       default:
          calculatorResult = 0;
    }
