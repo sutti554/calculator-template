@@ -45,3 +45,8 @@ button {
    background-color: goldenrod;
    border-color: black;
 }
+
+.lamar {
+   background-image: url(https://sportsnaut.com/wp-content/uploads/2019/09/USATSI_13328793_168386999_lowres.jpg);
+   background-repeat: repeat;
+}

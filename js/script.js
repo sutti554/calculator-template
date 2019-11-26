@@ -33,7 +33,7 @@ calcForm.addEventListener('submit', function (e) {
          break;
       case 'lamar':
          document.body.classList = 'lamar';
-         calculatorResult = 'lamar!';
+         calculatorResult = 'Lamar!';
          break;
       default:
          calculatorResult = 0;
